@@ -2,8 +2,8 @@
 
 $data = json_decode(file_get_contents('php://input'), true);
 
-$token = "5096876506:AAFjQBCLJOxE_qszRNR2tfJE9j1eRB1cesU";
-$chat_id = "-744509259";
+$token = "TOKEN";
+$chat_id = "CHAT-ID";
 
 foreach($data as $key => $value) {
   $txt .= "<b>".$key.": "."</b> ".$value."%0A";
